@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="WordType">
+        <item>Animal</item>
+        <item>Fruit</item>
+        <item>Greeting</item>
+        <item>People</item>
+        <item>Transport</item>
+    </array>
+</resources>

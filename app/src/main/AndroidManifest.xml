@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.a846205123.ncu_learningchinese">
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@drawable/openbook"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".Activity.ActivityLogin">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activity.ActivityVocabulary" />
+        <activity android:name=".Activity.ActivityWordType" />
+        <activity android:name=".Activity.ActivityHomePage" />
+        <activity android:name=".Activity.ActivityProfile" />
+        <activity android:name=".Activity.ActivityCreateWord" />
+        <activity android:name=".Activity.ActivityTest" />
+        <activity android:name=".Activity.ActivityProfileView"></activity>
+
+    </application>
+
+</manifest>

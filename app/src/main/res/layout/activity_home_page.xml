@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/imglogin"
+    tools:context="com.example.a846205123.ncu_learningchinese.Activity.ActivityHomePage">
+
+    <Button
+        android:id="@+id/BtnLoginout"
+
+        android:layout_width="222dp"
+        android:layout_height="25dp"
+        android:layout_marginBottom="8dp"
+
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/colorPrimary"
+        android:text="Loginout"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.982" />
+
+    <Button
+        android:id="@+id/BtnProfile"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/profileblue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.139"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.17" />
+
+    <Button
+        android:id="@+id/BtnPractice"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/practice"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.308" />
+
+    <Button
+        android:id="@+id/BtnTest"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/write"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.152"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.445" />
+
+    <Button
+        android:id="@+id/BtnCreatWord"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/test"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.583" />
+
+    <TextView
+        android:id="@+id/txtProfile"
+        android:layout_width="108dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/Profile"
+        android:textAlignment="textStart"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="@+id/BtnProfile"
+        app:layout_constraintStart_toEndOf="@+id/BtnProfile"
+        app:layout_constraintTop_toTopOf="@+id/BtnProfile"
+        app:layout_constraintVertical_bias="0.428" />
+
+    <TextView
+        android:id="@+id/txtPractice"
+        android:layout_width="108dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/Practice"
+        android:textAlignment="textStart"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="@+id/BtnPractice"
+        app:layout_constraintStart_toEndOf="@+id/BtnPractice"
+        app:layout_constraintTop_toTopOf="@+id/BtnPractice" />
+
+    <TextView
+        android:id="@+id/txtTest"
+        android:layout_width="108dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/Test"
+        android:textAlignment="textStart"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="@+id/BtnTest"
+        app:layout_constraintStart_toEndOf="@+id/BtnTest"
+        app:layout_constraintTop_toTopOf="@+id/BtnTest"
+        app:layout_constraintVertical_bias="0.571" />
+
+    <TextView
+        android:id="@+id/txtCreatNewWord"
+        android:layout_width="151dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/CreatNewWord"
+        android:textAlignment="textStart"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="@+id/BtnCreatWord"
+        app:layout_constraintStart_toEndOf="@+id/BtnCreatWord"
+        app:layout_constraintTop_toTopOf="@+id/BtnCreatWord"
+        app:layout_constraintVertical_bias="0.571" />
+</android.support.constraint.ConstraintLayout>
