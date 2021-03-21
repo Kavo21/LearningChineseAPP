@@ -4,8 +4,9 @@
 **功能**: 
 * 註冊帳號(Register Account)  
 * G-mail驗證(Send a user a verification email)  
-* 保持登入功能(Keep login)    
-![image](https://github.com/Kavo21/LearningChineseAPP/blob/master/login.png =60%x)  
+* 保持登入功能(Keep login)  
+* <img src="https://github.com/Kavo21/LearningChineseAPP/blob/master/login.png" width="50%" height="50%">
+![image](https://github.com/Kavo21/LearningChineseAPP/blob/master/login.png)  
 * 發音練習 (Pronunciation practice)  
 * 語音辨識 (Speech recognition )   
 * 測驗遊戲(Test Game)  
