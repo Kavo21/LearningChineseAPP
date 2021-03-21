@@ -5,14 +5,15 @@
 * 註冊帳號(Register Account)  
 * G-mail驗證(Send a user a verification email)  
 * 保持登入功能(Keep login)  
+
 <img src="https://github.com/Kavo21/LearningChineseAPP/blob/master/login.png" width="30%" height="30%"> 
+
 * 發音練習 (Pronunciation practice)  
 * 測驗遊戲(Test Game)  
 * 語音辨識 (Speech recognition)  
 * 中英對照(Chinese-English Comparison)  
 * 單字分類(Word Classification)  
 <img src="https://github.com/Kavo21/LearningChineseAPP/blob/master/main.png" width="30%" height="30%"> <img src="https://github.com/Kavo21/LearningChineseAPP/blob/master/vocabluary.png" width="30%" height="30%"> <img src="https://github.com/Kavo21/LearningChineseAPP/blob/master/practice.png" width="30%" height="30%">  
-
 
 * 權重單字機制 (Weighted word )  
 * 建立單字、上傳圖片 (Create Word ，Upload image)  
